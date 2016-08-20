@@ -1,4 +1,4 @@
-package algorithm_java;
+package Sort;
 
 public class InsertionSort {
 	public static void main(String[] args) {
