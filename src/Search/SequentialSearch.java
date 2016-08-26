@@ -2,9 +2,9 @@ package Search;
 
 import java.util.Scanner;
 
-public class SequentialSearch {
+public class SequentialSearch { //배열의 모든 원소를 차례대로 확인
 	public int sequentialSearch(int[] arr, int target){
-		for(int index=0 ; index<arr.length ; index++){
+		for(int index=0 ; index<arr.length ; index++){ 
 			if(arr[index] == target){
 				return index; 
 			}
